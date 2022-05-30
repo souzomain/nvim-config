@@ -1,0 +1,20 @@
+{
+    "languageserver":{
+        "ccls":{
+            "command" : "ccls",
+            "filetypes": ["c","cc","cpp","c++"],
+            "rootPatterns": [".ccls",".clangd","compile_commands.json",".git/",".hg/"],
+            "initializationOptions": {
+                "cache": {
+                    "directory": "/tmp/ccls/"
+                }
+//                "clang":{
+//                   "extraArgs":[
+//                        "-I",
+//                        "/usr/x86_64-w64-mingw32/include/"
+//                    ]
+//                }
+            }
+        }
+    }
+}
